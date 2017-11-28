@@ -1,0 +1,30 @@
+/*fuentes*/
+@font-face{
+	font-family: National;
+	src: url('../fonts/National-Regular.otf');
+}
+
+@font-face{
+	font-family: NationalBold;
+	src: url('../fonts/National-Bold.otf');
+}
+
+@font-face{
+	font-family: Sensations;
+	src: url('../fonts/sensations.ttf');
+}
+
+@font-face{
+	font-family: UsedToKnow;
+	src: url('../fonts/ised.ttf');
+}
+/* determinar fuentes */
+p{
+	font-size: 16px;
+	font-family: National, sans-serif;
+	color: white; 
+}
+
+h1,h2,h3,h4,h5{
+	font-family: UsedToKnow;
+}

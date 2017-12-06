@@ -1,7 +1,7 @@
 /*fuentes*/
 @font-face{
 	font-family: National;
-	src: url('../fonts/National-Regular.otf');
+	src: url('../fonts/National-Light.otf');
 }
 
 @font-face{
@@ -16,15 +16,188 @@
 
 @font-face{
 	font-family: UsedToKnow;
-	src: url('../fonts/ised.ttf');
+	src: url('../fonts/iused.ttf');
 }
 /* determinar fuentes */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.row{
+	max-width: 100%;
+	overflow: hidden;
+	margin: auto;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
 p{
-	font-size: 16px;
+	font-size: 20px;
 	font-family: National, sans-serif;
 	color: white; 
+	line-height: 1;
+    text-align: justify;
 }
 
 h1,h2,h3,h4,h5{
 	font-family: UsedToKnow;
+}
+
+.content{
+	background-color: #b6a699;
+}
+
+.back{
+	background-image: url(../images/tamales.jpg);
+	    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.back-2{
+	background-image: url(../images/festival-tamal-diciembre-2017.jpeg);
+	    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+.map {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
+
+#pndj{
+	display: none !important;
+}
+
+@media only screen and (max-width: 1000px){
+	.tamal{
+		font-size: 106px !important;
+		line-height: 80px !important;
+	}
+
+	.name{
+		font-size: 40px !important;
+	}
+
+	.flavor{
+		font-size: 60px !important;
+	}
+
+	.contents{
+		width: 90% !important;
+		font-size: 20px !important;
+		line-height: 1 !important;
+	}
+
+	.imgage{
+		width: 70%;
+		margin-left: 15%;
+	}
+	.image-1{
+		width: 50%;
+		margin-left: 25%;
+	}
+
+	.foot{
+		margin: 0 10px 20px !important;
+		font-size: 10px !important;
+	}
+	#back{
+		background-image: url(../images/tamales_landing_delasmirandas.png);
+		max-height: 300px;
+	}
+	#small{
+		font-size: 30px !important;
+	}
+	#small-1{
+		font-size: 20px !important;
+		margin: 0;
+	}
+	#small-2{
+		font-size: 20px !important;
+		margin: 0;
+	}
+	#back-2{
+		max-height: 200px;
+	}
+	#back-3{
+		max-height: 350px !important;
+	}
+	#text{
+		text-align: right !important;
+		margin-bottom: 0 !important;
+	}
+	#map{
+		height: 400px;
+		padding: 0;
+	}
+
+	#text1{
+		margin-top: 2% !important;
+	}
+	#tamal{
+		font-size: 40px !important;
+		line-height: 12px !important;
+	}
+
+	#chiqui{
+		font-size: 10px !important;
+	}
+	#noma{
+		margin: 10px 5%; width: 80% !important;
+	}
+}
+
+@media only screen and (max-width: 575px){
+	div > .noflo{
+		float: none !important;
+		margin: -20px 0 0px;
+		font-size: 14px !important;
+		text-align: center !important;
+	}
+	div > #small-1{
+		font-size: 16px !important;
+		margin: 0;
+	}
+
+	#pndj{
+		display: flex !important;
+	}
+
+	#retrabajo{
+		display: none !important;
+	}
+
+	.contents{
+		height: 80px !important;
+		border-bottom: 1px solid #fbd488;
+	}
+
+	#gfy{
+		display: flex !important;
+		width: 100%;
+		padding: 0 !important;
+	}
+
+	#fa{
+		margin-right: 50% !important;
+	}
+
 }
